@@ -171,3 +171,28 @@ impl CliInterpreter {
         Ok(())
     }
 }
+
+/// 主函数
+fn main() {
+    let mut interpreter = CliInterpreter::new();
+    interpreter.run();
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_cli_interpreter_creation() {
+        let cli = CliInterpreter::new();
+        assert!(!cli.current_dir.is_empty());
+    }
+
+    #[test]
+    fn test_echo_command() {
+        let cli = CliInterpreter::new();
+        // 这里可以添加更多的单元测试
+        // 由于echo命令只是打印，我们可以测试它不会panic
+        cli.echo_command(&["hello", "world"]);
+    }
+}
