@@ -1,0 +1,17 @@
+commit 444987969c0b3eaba7094f7b8a8bd4340a4b68de (HEAD -> main, origin/main)
+Author: kipchogee <2086759341@qq.com>
+Date:   Fri May 23 21:28:30 2025 +0800
+
+      add main function
+
+commit 3d300a22a53b9cd4533a5807f7646652c925af26
+Author: kipchogee <2086759341@qq.com>
+Date:   Fri May 23 21:24:48 2025 +0800
+
+    添加处理用户输入和显示信息等诸多功能
+
+commit d5c2514eb5020020eb8f25e353616fdbfa80a287
+Author: kipchogee <2086759341@qq.com>
+Date:   Fri May 23 20:59:08 2025 +0800
+
+    first commit
